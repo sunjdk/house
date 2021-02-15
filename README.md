@@ -18,6 +18,6 @@ npm run build
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-![登录页](https://github.com/sunjdk/house-vue/blob/main/%E7%99%BB%E5%BD%95%E9%A1%B5.jpg)
+![登录页](https://github.com/sunjdk/house-vue/blob/main/登录页.jpg)
 
-![登录页](https://raw.githubusercontent.com/sunjdk/house-vue/main/%E7%99%BB%E5%BD%95%E9%A1%B5.jpg)
+![登录页](https://raw.githubusercontent.com/sunjdk/house-vue/main/登录页.jpg)
