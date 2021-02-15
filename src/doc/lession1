@@ -1,0 +1,27 @@
+一、创建项目
+vue create xjorm
+项目创建选择项：
+1.手动选择
+2.选择vue版本2，babel,router,vuex,css pre-processors
+3.浏览器路由历史
+4.css 模块less
+5.where do you prefer placing config for Babel,eslint,etc.? In dedicated config files
+6.是否保存预设
+
+二、axios 安装
+npm install --save axios vue-axios
+http://axios-js.com/zh-cn/docs/vue-axios.html 官网
+
+三、运行 npm run serve
+
+四、配置格式化
+.prettierrc
+{
+  "semi":false,
+  "singleQuote":true
+}
+
+
+
+记录一个项目源码仓库地址：
+

@@ -1,0 +1,24 @@
+创建分支，合并分支，切换分支，推送远程仓库
+
+git branch 
+git add .       暂存代码
+git status
+
+git commit -m "注释"
+git status      查看工作区
+git checkout master       切换分支
+git branch  
+git merge login           合并login 分支到master分支
+git remote add origin https://git.com/mangunmhou/xijin-project.git
+
+远程仓库已经存在
+
+git remote rm origin
+git remote add origin https://git.com/mangunmhou/xijin-project.git
+git push -u origin master
+
+推送login 分支到远程仓库
+git checkout login 
+git remote add origin   //提交分支 可以忽略
+git push -u origin login 
+

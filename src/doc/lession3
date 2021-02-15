@@ -1,0 +1,36 @@
+一、生成随机数验证码的方法
+
+checkCode(){
+  var str='abcdefghijklmnopqrstuvwxyz'
+  str=str.concat('0123456789',str.toUpperCase())
+  var arr=str.split('')
+  var ranCode=''
+  for(var i=0;i<4;i++){
+    var ranIdx=parseInt(Math.random()*arr.length)
+    ranCode+=arr[ranIdx]
+  }
+  return ranCode;
+}
+
+Vue 验证码插件安装使用
+https://blog.csdn.net/yyjourney/article/details/79072093
+
+二、登录处理及路由跳转
+
+登录页面路由定义
+
+import Login from '../views/Login.vue'
+
+const routes=[
+  {path:'/',redirect:'/login'}
+  {path:'/login',components:Login'}
+]
+
+App.vue 记得添加路由出口
+
+<router-view></router-view>
+
+三、导入全局样式
+在 main.js 中
+import '样式文件路径'
+

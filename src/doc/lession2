@@ -1,0 +1,26 @@
+git config --global user.name "xxxxxx"
+git config --global user.email "yyyyy"
+
+创建仓库
+
+mkdir xxxxx-project
+cd xxxxx-project
+git init
+touch ReadMe.md
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/sunjdk/xxxxx.project.git 
+git push -u origin master
+
+已有仓库
+
+cd xxxxx-project
+git remote add origin https://github.com/sunjdk/xxxxx.project.git 
+git push -u origin master
+
+创建开发分支
+
+git branch          查看分支
+git branch login
+git checkout login  切换到新分支
+

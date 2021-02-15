@@ -1,0 +1,27 @@
+退出登录主要代码
+
+methods:{
+  loginout(){
+    this.$confirm('您确定要退出系统吗？','提示',{
+      confirmButtonText:'确定',
+      cancelButtonText:'取消',
+      type:'warning',
+    }).then(()=>{
+      sessionStorage.clear()
+      this.$router.push('/login')
+      this.$message({
+        type:'success',
+        message:'退出成功',
+      })
+    }).catch(()=>{
+      this.$message({
+        type:'info',
+        message:'已取消操作'
+      })
+    })
+  }
+}
+
+created(){
+  this.user_name=sessionStorage.getItem('username)
+}
