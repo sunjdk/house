@@ -18,4 +18,7 @@ npm run build
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-![登录页](C:\Users\86183\house-vue\登录页.png)
+![登录页](./登录页.png)
+
+
+
